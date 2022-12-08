@@ -11,7 +11,7 @@ const generateTarget = () => {
 
 const compareGuesses = (humanG, computerG, targetG) => {
   const humanDifference = Math.abs(targetG - humanG);
-  const computerDifference = Math.abs(target - computerG);
+  const computerDifference = Math.abs(targetG - computerG);
   if(humanDifference >= computerDifference){
     return true
   }else{
